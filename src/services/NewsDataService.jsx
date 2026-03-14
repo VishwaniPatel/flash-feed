@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "https://corsproxy.io/?https://inshorts.com/api/en/news?category=";
+ "https://api.allorigins.win/raw?url=https://inshorts.com/api/en/news?category=";
 // to get all news
 export const getAllNewsData = async (category) => {
   const newsData = `${baseUrl}${category}&max_limit=100&include_card_data=true`;
